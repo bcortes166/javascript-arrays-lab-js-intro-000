@@ -22,5 +22,5 @@ var destructivelyRemoveFirstKitten = name => {
 
 var appendKitten = name => {
 
-  [...kittens, name]
+  return [...kittens, name]
 }
