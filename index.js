@@ -19,3 +19,8 @@ var destructivelyRemoveFirstKitten = name => {
 
   kittens.shift(name)
 }
+
+var appendKitten = name => {
+
+  [...kittens, name]
+}
